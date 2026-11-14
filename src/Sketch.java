@@ -21,8 +21,22 @@ public class Sketch extends PApplet {
         if (key == 'p') {
             drawPumpkin(mouseX, mouseY, 0.4);
         }
+        if (key == 'l') {
+            drawLeaf(mouseX, mouseY, 0.4, 100, 180, 100);
+        }
+        if (key == 'a') {
+            drawAcorn(mouseX, mouseY, 0.4);
+        }
+        if (key == 't') {
+            drawTree(mouseX, mouseY, 0.4, 50, 150, 50);
+        }
+        if (key == 'h') {
+            drawHaystack(mouseX, mouseY, 0.4);
+        }
+
     }
 
+    // Draws a pumpkin at the specified (x, y) position with the given scale factor s.
     public void drawPumpkin(int x, int y, double s) {
         pushMatrix();
         translate(x, y);
