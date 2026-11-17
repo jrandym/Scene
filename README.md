@@ -41,3 +41,4 @@ public void drawMyStamp(int x, int y, double s) {
 2. Write the drawing code inside the pattern. Use only `0`-based coordinates, no `x` or `y`.
 3. Give it a key in `keyPressed()`.
 4. Stamp a full fall scene.
+5. Save your changes
